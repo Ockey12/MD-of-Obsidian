@@ -31,3 +31,17 @@ This is ~~strikethrough text~~.
 	- Indented Unordered List1-1
 	- Indented Unordered List1-2
 - Unordered List2
+
+```
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+```
