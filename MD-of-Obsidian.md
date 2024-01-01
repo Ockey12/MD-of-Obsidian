@@ -20,6 +20,8 @@ This is ==highlighted text==.
 
 This is <u>underlined text<\u>.
 
+This is ~~strikethrough text~~.
+
 1. Ordered List1
 	1. Indented Ordered List1-1
 	2. Indented Ordered List1-2
