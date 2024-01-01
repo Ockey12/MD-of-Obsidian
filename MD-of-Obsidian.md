@@ -18,6 +18,8 @@ This is _italic text_.
 
 This is ==highlighted text==.
 
+This is <u>underlined text<\u>.
+
 1. Ordered List1
 	1. Indented Ordered List1-1
 	2. Indented Ordered List1-2
