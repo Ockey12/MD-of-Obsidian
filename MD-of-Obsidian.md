@@ -10,6 +10,9 @@ Headline1
 Headline2
 --
 
+This is **bold text**.
+This is __bold text__.
+
 1. Ordered List1
 	1. Indented Ordered List1-1
 	2. Indented Ordered List1-2
