@@ -13,6 +13,9 @@ Headline2
 This is **bold text**.
 This is __bold text__.
 
+This is *italic text*.
+This is _italic text_.
+
 1. Ordered List1
 	1. Indented Ordered List1-1
 	2. Indented Ordered List1-2
