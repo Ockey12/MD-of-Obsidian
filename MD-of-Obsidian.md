@@ -5,41 +5,50 @@ aliases:
 -
 ---
 
-# Headline1
-## Headline2
-### Headline3
-#### Headline4
-##### Headline5
-###### Headline6
+# 見出し1
+## 見出し2
+### 見出し3
+#### 見出し4
+##### 見出し5
+###### 見出し6
 
-Headline1
+下にイコールで見出し1
 =
-Headline2
+下にハイフン2つで見出し2
 --
 
-This is **bold text**.
-This is __bold text__.
+アスタリスク2つで挟んで**太字**．
 
-This is *italic text*.
-This is _italic text_.
+アンダースコア2つで挟んでも__太字__(うまく解析できない場合があるのでアスタリスクの方が良いらしい)．
 
-This is ==highlighted text==.
+アスタリスク1つで挟んで*斜体*．
 
-This is <u>underlined text<\u>.
+アンダースコア1つで挟んでも_斜体_(これもアスタリスクの方が良いらしい)．
 
-This is ~~strikethrough text~~.
+イコール2つで挟んで==ハイライト==．
 
-1. Ordered List1
-	1. Indented Ordered List1-1
-	2. Indented Ordered List1-2
-2. Ordered List2
+HTMLの\<u>タグで挟んで<u> アンラーライン </u> ．
 
-- Unordered List1
-	- Indented Unordered List1-1
-	- Indented Unordered List1-2
-- Unordered List2
+\~~で挟んで~~取り消し線~~．
+
+1. 番号付き箇条書き1
+	1. 番号付き箇条書き1-1
+	2. 番号付き箇条書き1-2
+2. 番号付き箇条書き2
+
+- 箇条書き1
+	- 箇条書き1-1
+	- 箇条書き1-2
+- 箇条書き2
+
+> 引用
+> 上下に空行が必要
+>> ネストした引用
+>>>さらにネストした引用
 
 ```
+コードブロック
+
 struct ContentView: View {
     var body: some View {
         VStack {
